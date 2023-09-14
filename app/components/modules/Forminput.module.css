@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    height: 100px;
+    /* background-color: rgba(255, 255, 255, 0.04); */
+    margin-bottom: 10px;
+    
+    border-radius: 5px;
+}
+.container label{
+    color: #acacac;
+    font-size:1.4rem;
+    /* background-color: rebeccapurple; */
+    height: 40px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+
+}
+.container input{
+    height: 40px;
+    /* padding-top: 5px; */
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    outline: none;
+    transition: all 400ms;
+}
+/* .container input:focus{
+    
+    font-size: 1.4rem;
+    height: 50px;
+} */

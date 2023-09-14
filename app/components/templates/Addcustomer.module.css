@@ -1,0 +1,28 @@
+.container h1{
+   margin-bottom:40px;
+   margin-top: 10px;
+   
+}
+.container .button{
+
+    display: flex;
+    justify-content: space-between;
+    /* background-color: rebeccapurple; */
+    margin-bottom: 10px;
+    
+}
+
+.container .button .save{
+    border: solid 3px green;
+    border-radius: 5px;
+    color :green;
+    font-size: 1rem;
+    padding: 5px 15px;
+}
+.container .button .cancel{
+    border: solid 3px red;
+    border-radius: 5px;
+    color :red;
+    font-size: 1rem;
+    padding: 5px 15px;
+}

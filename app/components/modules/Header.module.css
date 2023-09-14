@@ -1,0 +1,27 @@
+.container{
+
+/* background-color: rgb(15, 15, 15); */
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 5px;
+border-radius: 5px;
+/* position: absolute; */
+top: 10px;
+
+}
+.container button{
+   background-color: rgb(60, 195, 60);
+   border-radius: 5px;
+   font-size: 1rem;
+   padding: 5px;
+   height: fit-content;
+   color: rgb(0, 0, 0);
+}
+.container a{
+transition: all 400ms;
+
+}
+.container a:hover{
+   opacity: 50%;
+}

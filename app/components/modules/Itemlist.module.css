@@ -1,0 +1,38 @@
+.container , .input{
+    border: 1px solid rgba(128, 128, 128, 0.405) ;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.container h3{
+    margin-bottom: 40px;
+    color: #acacac;
+}
+
+.container .input .price{
+   display: flex;
+   justify-content: space-between;
+   
+}
+
+.container .input  .name input:focus{
+     font-size: 1.5rem;
+     height: 50px;
+}
+.container .input button{
+    width: 100%;
+    border: red solid 3px;
+    color: red;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    padding: 5px;
+}
+.addItemButton button{
+    width: 100%;
+    border: green solid 3px;
+    color: green;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    padding: 5px;
+   
+}

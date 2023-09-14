@@ -1,0 +1,37 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.04);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    
+}
+.name{
+   min-width: 30%;
+   display: flex;
+   justify-content: space-between;
+}
+.button{
+    min-width:17%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.button button{
+    font-size: 1rem;
+    padding: 5px;
+    color:rgb(60, 195, 60);;
+    border: 1px solid ;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0);
+    min-width: 55px;
+    
+    
+}
+.button button:nth-child(1){
+    color:rgb(186, 0, 0);
+    border-color: rgb(186, 0, 0);
+
+}
