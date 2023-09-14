@@ -1,8 +1,5 @@
 "use client";
-<<<<<<< HEAD
 import styles from "./EditCustomer.module.css";
-=======
->>>>>>> a3d867b2ad8e6052acc84aa1e8caf1af98756d0a
 import React, { useEffect, useState } from "react";
 import Form from "../modules/Form";
 import { useRouter } from "next/navigation";
@@ -37,11 +34,7 @@ export default function EditCustomer({ id }) {
     return (
       <>
         <CustomerEdit form={form} setForm={setForm} />
-<<<<<<< HEAD
         <div className={styles.container}>
-=======
-        <div>
->>>>>>> a3d867b2ad8e6052acc84aa1e8caf1af98756d0a
           <button onClick={() => detailHanlder()}>Detail</button>
           <button onClick={() => editHandler()}>Edit</button>
         </div>
