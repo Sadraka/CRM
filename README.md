@@ -7,7 +7,5 @@
             <li>App routing</li>
             <li>Next API</li>
         </div>
-  
-   
     <li> <h3>MongoDB</h3></li>
 </ul>
