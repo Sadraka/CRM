@@ -1,6 +1,6 @@
 <h1>Customer Management </h1>
 <ul>
-<h2> Tools used </h2>
+<h2> Tools </h2>
 
    <li><h3>Next.js</h3>
      <ul>
